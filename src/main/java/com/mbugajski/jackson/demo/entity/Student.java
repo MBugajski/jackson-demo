@@ -8,6 +8,7 @@ public class Student {
 	
 	private Address address;
 	
+	private String[] languages;
 	
 	public Student() {
 		
@@ -61,6 +62,16 @@ public class Student {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+
+	public String[] getLanguages() {
+		return languages;
+	}
+
+
+	public void setLanguages(String[] languages) {
+		this.languages = languages;
 	}
 	
 	
