@@ -6,6 +6,8 @@ public class Student {
 	private String lastName;
 	private boolean active;
 	
+	private Address address;
+	
 	
 	public Student() {
 		
@@ -49,6 +51,16 @@ public class Student {
 
 	public void setActive(boolean active) {
 		this.active = active;
+	}
+
+
+	public Address getAddress() {
+		return address;
+	}
+
+
+	public void setAddress(Address address) {
+		this.address = address;
 	}
 	
 	
