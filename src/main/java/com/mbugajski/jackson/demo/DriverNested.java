@@ -24,6 +24,11 @@ public class DriverNested {
 			System.out.println("City = " + tempAddress.getCity());
 			System.out.println("State = " + tempAddress.getState());
 			System.out.println("Country = " + tempAddress.getCountry());
+			
+			System.out.print("Languages:");
+			for (String tempLang : theStudent.getLanguages()) {
+				System.out.print(" " + tempLang);
+			}
 		} catch (Exception exc) {
 			exc.printStackTrace();
 		}
