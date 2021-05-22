@@ -1,5 +1,8 @@
 package com.mbugajski.jackson.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Address {
 	private String street;
 	private String city;
